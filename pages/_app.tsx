@@ -35,11 +35,11 @@ export default function App({ Component, pageProps }: AppProps) {
           property="og:description"
           content="CrazyCup Club Mint"
         />
-        <meta name="description" content="" />
+        <meta name="description" content="Website is based on MarkSackerbers work" />
 
         <meta
           property="og:image"
-          content="/logo.png"
+          content={image}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>CrazyCup Club</title>

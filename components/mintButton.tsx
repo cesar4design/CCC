@@ -161,7 +161,7 @@ const mintClick = async (
       toast({
         title: "Allowlist detected. Please sign to be approved to mint.",
         status: "info",
-        duration: 1200,
+        duration: 900,
         isClosable: true,
       });
       await routeBuild.sendAndConfirm(umi, {

@@ -53,11 +53,6 @@ a {
   text-decoration: none;
 }
 
-.FlexCenterO {
-  position: relative;
-  z-index: 99;
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -284,10 +279,8 @@ button.wallet-adapter-button-trigger:hover {
   }
 
   .Mobile {
-    display: flex;
     flex-direction: column;
     display: none;
-    text-align: center;
   }
 
  

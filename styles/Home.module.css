@@ -149,5 +149,9 @@ button.wallet-adapter-button-trigger:hover {
     margin: 0 auto;
   }
 
-  
+  .wallet { 
+    display: flex;
+    padding: 0.8rem;
+    flex-direction: row-reverse;
+  }
 }

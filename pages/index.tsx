@@ -93,7 +93,7 @@ const useCandyMachine = (umi: Umi, candyMachineId: string, checkEligibility: boo
             title: "No Candy Guard found!",
             description: "Do you have one assigned?",
             status: "error",
-            duration: 1,
+            duration: 999999,
             isClosable: true,
           });
         }
@@ -136,7 +136,7 @@ export default function Home() {
         title: 'No candy machine in .env!',
         description: "Add your candy machine address to the .env file!",
         status: 'error',
-        duration: 1,
+        duration: 999999,
         isClosable: true,
       })
     }
@@ -418,8 +418,8 @@ export default function Home() {
 
   return (
     <main>
-      <div className="FlexCenter Mobile">
-        <a href="crazycupsclub.com"><img className="logo" src="logo.png" alt="" /></a>
+      <div className="FlexCenter">
+        <img className="logo" src="logo.png" alt="" />
         <div className={styles.wallet}>
           <WalletMultiButtonDynamic />
         </div>
