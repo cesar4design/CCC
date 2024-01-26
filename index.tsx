@@ -332,7 +332,7 @@ export default function Home() {
                   setCheckEligibility={setCheckEligibility}
                 /></p>
               </div>
-              <h4>Max 4 Tokens - Price 0.80 ◎SOL</h4>
+              <h4>Max 4 Tokens - Price 0.80 âSOL</h4>
             </div>
 
             <div className="MintContainer">
@@ -419,7 +419,7 @@ export default function Home() {
   return (
     <main>
       <div className="FlexCenter">
-        <img className="logo" src="logo.png" alt="" />
+        <a href="crazycupsclub.com"></a><img className="logo" src="logo.png" alt="" />
         <div className={styles.wallet}>
           <WalletMultiButtonDynamic />
         </div>
@@ -430,7 +430,7 @@ export default function Home() {
       </div>
       <section className="Footer">
         <div>
-          © 2024 CrazyCups Club
+          Â© 2024 CrazyCups Club
         </div>
         <div className="FlexCenter Mobile">
           <span>Contract: BBWW9HfB4SUYvHEDfTGf8DRa6oDBUXGmWcD8vW8h13E2 </span>
