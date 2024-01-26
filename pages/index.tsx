@@ -419,7 +419,7 @@ export default function Home() {
   return (
     <main>
       <div className="FlexCenter">
-        <img className="logo" src="logo.png" alt="" />
+        <a href="crazycupsclub.com"></a><img className="logo" src="logo.png" alt="" />
         <div className={styles.wallet}>
           <WalletMultiButtonDynamic />
         </div>
